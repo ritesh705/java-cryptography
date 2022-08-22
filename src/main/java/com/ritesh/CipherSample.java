@@ -14,7 +14,6 @@ public class CipherSample
         Signature sign = Signature.getInstance("SHA256withRSA");
 
         //Creating KeyPair generator
-        
         KeyPairGenerator keyPairGen = KeyPairGenerator.getInstance("RSA");
 
         //Initializing the key pair generator
